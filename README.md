@@ -75,6 +75,6 @@ Reads (get commands) returns "xOK" or "xNOK" where x is "0" or "1" to digital in
 &num; echo "setd<b>d2=1</b>" > /dev/<b>tty0</b><br>
 <i>cmd: [setdd2=1]<br>OK</i><br><br>
 &num; echo "getd<b>d2</b>" > /dev/<b>tty0</b><br>
-<i>cmd: [getdd2=1]<br>0OK</i><br><br>
+<i>cmd: [getdd2]<br>0OK</i><br><br>
 &num; echo "setd<b>d2=0</b>" > /dev/<b>tty0</b><br>
 <i>cmd: [setdd2=0]<br>OK</i><br>
