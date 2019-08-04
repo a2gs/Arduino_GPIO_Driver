@@ -67,6 +67,7 @@ setd<b>a3</b>=456\n<br>
 All messagens returns "OK" or "NOK".<br>
 Reads (get commands) returns "xOK" or "xNOK" where x is "0" or "1" to digital input pins or "0" to "1023" to analog input pins.<br>
 <br>
+Sample:<br><br>
 <b>At linux prompt:</b><br>
 &num; tail -f /dev/<b>tty0</b> &<br>
 <i>Ready</i><br><br>
@@ -78,3 +79,9 @@ Reads (get commands) returns "xOK" or "xNOK" where x is "0" or "1" to digital in
 <i>cmd: [getdd2]<br>0OK</i><br><br>
 &num; echo "setd<b>d2=0</b>" > /dev/<b>tty0</b><br>
 <i>cmd: [setdd2=0]<br>OK</i><br>
+&num; echo "inup<b>d3=0</b>" > /dev/<b>tty0</b><br>
+<i>cmd: [inupd3]<br>OK</i><br>
+&num; echo "getd<b>d3</b>" > /dev/<b>tty0</b><br>
+<i>cmd: [getdd3=0]<br>OK</i><br>
+&num; echo "getd<b>d3</b>" > /dev/<b>tty0</b><br>
+<i>cmd: [getdd3=1]<br>OK</i><br>
