@@ -8,43 +8,43 @@ Protocol:<br>
 PC (serial) to Arduino:<br>
 <br>
 To set pin as OUTPUT:<br>
-	outd2\n<br>
-	outd3\n<br>
-	outdXX\n<br>
-	outa3\n<br>
+&nbsp;out<b>d2</b>\n<br>
+&nbsp;out<b>d3</b>\n<br>
+&nbsp;out<b>dXX</b>\n<br>
+&nbsp;out<b>a3</b>\n<br>
 <br>
 To set pin as INPUT:<br>
-	ind2\n<br>
-	ind3\n<br>
-	indXX\n<br>
-	ina3\n<br>
+&nbsp;in<b>d2</b>\n<br>
+&nbsp;in<b>d3</b>\n<br>
+&nbsp;in<b>dXX</b>\n<br>
+&nbsp;in<b>a3</b>\n<br>
 <br>
 To set pin as INPUT_PULLUP:<br>
-	inupd0\n<br>
-	inupd1\n<br>
-	inupdXX\n<br>
-	inupa3\n<br>
+&nbsp;inup<b>d0</b>\n<br>
+&nbsp;inup<b>d1</b>\n<br>
+&nbsp;inup<b>dXX</b>\n<br>
+&nbsp;inup<b>a3</b>\n<br>
 <br>
 To read a digital pin state:<br>
-	getdd2\n<br>
-	getddXX\n<br>
-	getda3\n<br>
+&nbsp;getd<b>d2</b>\n<br>
+&nbsp;getd<b>dXX</b>\n<br>
+&nbsp;getd<b>a3</b>\n<br>
 (Arduino returns to host)<br>
 <br>
 To read a analog pin state:<br>
-	getad2\n<br>
-	getadXX\n<br>
-	getaa3\n<br>
+&nbsp;geta<b>d2</b>\n<br>
+&nbsp;geta<b>dXX</b>\n<br>
+&nbsp;geta<b>a3</b>\n<br>
 (Arduino returns to host)<br>
 <br>
 To set pin digital as HIGH or LOW:<br>
-	setdd0=1\n<br>
-	setdd1=0\n<br>
-	setddXX=1\n<br>
-	setda3=0\n<br>
+&nbsp;setd<b>d0</b>=1\n<br>
+&nbsp;setd<b>d1</b>=0\n<br>
+&nbsp;setd<b>dXX</b>=1\n<br>
+&nbsp;setd<b>a3</b>=0\n<br>
 <br>
 To set pin analog:<br>
-	setdd0=123\n<br>
-	setdd1=234\n<br>
-	setddXX=345\n<br>
-	setda3=456\n<br>
+&nbsp;setd<b>d0</b>=123\n<br>
+&nbsp;setd<b>d1</b>=234\n<br>
+&nbsp;setd<b>dXX</b>=345\n<br>
+&nbsp;setd<b>a3</b>=456\n<br>
