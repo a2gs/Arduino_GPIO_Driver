@@ -68,7 +68,7 @@ All messagens returns "OK" or "NOK".<br>
 Reads (get commands) returns "xOK" or "xNOK" where x is "0" or "1" to digital input pins or "0" to "1023" to analog input pins.<br>
 <br>
 <b>At linux prompt:</b><br>
-tail -f /dev/<b>tty0</b> &<br>
+&num; tail -f /dev/<b>tty0</b> &<br>
 <i>Ready</i><br>
 &num; echo "out<b>d2</b>" > /dev/<b>tty0</b><br>
 <i>cmd: [outd2]<br>OK</i><br><br>
