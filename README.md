@@ -78,10 +78,10 @@ Sample:<br><br>
 &num; echo "getd<b>d2</b>" > /dev/<b>tty0</b><br>
 <i>cmd: [getdd2]<br>0OK</i><br><br>
 &num; echo "setd<b>d2=0</b>" > /dev/<b>tty0</b><br>
-<i>cmd: [setdd2=0]<br>OK</i><br>
-&num; echo "inup<b>d3=0</b>" > /dev/<b>tty0</b><br>
-<i>cmd: [inupd3]<br>OK</i><br>
+<i>cmd: [setdd2=0]<br>OK</i><br><br>
+&num; echo "inup<b>d3</b>" > /dev/<b>tty0</b><br>
+<i>cmd: [inupd3]<br>OK</i><br><br>
 &num; echo "getd<b>d3</b>" > /dev/<b>tty0</b><br>
-<i>cmd: [getdd3=0]<br>OK</i><br>
-&num; echo "getd<b>d3</b>" > /dev/<b>tty0</b><br>
-<i>cmd: [getdd3=1]<br>OK</i><br>
+<i>cmd: [getdd3]<br>0OK</i><br><br>
+&num; echo "getd<b>d3</b>" > /dev/<b>tty0</b><br> (putting D3 to LOW)
+<i>cmd: [getdd3]<br>1OK</i><br>
