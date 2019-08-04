@@ -82,6 +82,6 @@ Sample:<br><br>
 &num; echo "inup<b>d3</b>" > /dev/<b>tty0</b><br>
 <i>cmd: [inupd3]<br>OK</i><br><br>
 &num; echo "getd<b>d3</b>" > /dev/<b>tty0</b><br>
-<i>cmd: [getdd3]<br>0OK</i><br><br>
+<i>cmd: [getdd3]<br>1OK</i><br><br>
 &num; echo "getd<b>d3</b>" > /dev/<b>tty0</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(putting pin D3 to LOW)<br>
-<i>cmd: [getdd3]<br>1OK</i><br>
+<i>cmd: [getdd3]<br>0OK</i><br>
