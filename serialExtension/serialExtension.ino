@@ -69,7 +69,7 @@ int callCmd(String cmdReaded)
     pinMode(portName(cmdReaded.substring(3)), OUTPUT);
     return(0);
   }
-Serial.println("aqui8");
+
   return(-1);
 }
 
