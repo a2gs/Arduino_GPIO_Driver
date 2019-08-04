@@ -65,4 +65,11 @@ setd<b>a3</b>=456\n<br>
 <br>
 <b>Arduino to PC (serial):</b><br>
 All messagens returns "OK" or "NOK".<br>
-Reads (get commands) returns "xOK" or "xNOK" where x is "0" or "1" to digital input pins or "0" to "1023" to analog input pins.
+Reads (get commands) returns "xOK" or "xNOK" where x is "0" or "1" to digital input pins or "0" to "1023" to analog input pins.<br>
+<br>
+<b>At linux prompt:</b><br>
+cat /dev/<b>tty0</b>&<br>
+out<b>d2</b><br>
+setd<b>d2=1</b><br>
+getd<b>d2</b><br>
+setd<b>d2=0</b><br>
