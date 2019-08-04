@@ -3,7 +3,7 @@ Driver to access Arduino GPIO (config, set and get state) through PC-serial<br>
 <br>
 (Arduino Uno D0 and D1 are alloced to TX-RX Serial communication)<br>
 <br>
-- Protocol:<br>
+Protocol:<br>
 <br>
 <b>PC (serial) to Arduino:</b><br>
 <br>
@@ -67,7 +67,8 @@ setd<b>a3</b>=456\n<br>
 All messagens returns "OK" or "NOK".<br>
 Reads (get commands) returns "xOK" or "xNOK" where x is "0" or "1" to digital input pins or "0" to "1023" to analog input pins.<br>
 <br>
-- Sample:<br><br>
+Sample:<br>
+<br>
 <b>At linux prompt:</b><br>
 &num; tail -f /dev/<b>tty0</b> &<br>
 <i>Ready</i><br><br>
