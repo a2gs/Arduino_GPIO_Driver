@@ -31,7 +31,7 @@ inup<b>dXX</b>\n<br>
 inup<b>a3</b>\n<br>
 </i>
 <br>
-To read a digital pin state:<br>
+To read a digital input pin state:<br>
 <i>
 getd<b>d2</b>\n<br>
 getd<b>dXX</b>\n<br>
@@ -39,7 +39,7 @@ getd<b>a3</b>\n<br>
 </i>
 (Arduino returns to host)<br>
 <br>
-To read a analog pin state:<br>
+To read a analog input pin state:<br>
 <i>
 geta<b>d2</b>\n<br>
 geta<b>dXX</b>\n<br>
@@ -47,7 +47,7 @@ geta<b>a3</b>\n<br>
 </i>
 (Arduino returns to host)<br>
 <br>
-To set pin digital as HIGH or LOW:<br>
+To set a value to digital output pin as HIGH or LOW:<br>
 <i>
 setd<b>d0</b>=1\n<br>
 setd<b>d1</b>=0\n<br>
@@ -55,7 +55,7 @@ setd<b>dXX</b>=1\n<br>
 setd<b>a3</b>=0\n<br>
 </i>
 <br>
-To set pin analog:<br>
+To set a value to analog output pin:<br>
 <i>
 setd<b>d0</b>=123\n<br>
 setd<b>d1</b>=234\n<br>
