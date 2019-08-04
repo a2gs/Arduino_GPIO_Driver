@@ -37,37 +37,30 @@ int callCmd(String cmdReaded)
   int port = 0;
 
   if(cmdReaded.substring(0, 4).equalsIgnoreCase(String("GETA")) == true){
-    Serial.println("aqui1");
     Serial.print(analogRead(portName(cmdReaded.substring(4))));
     return(0);
   }else if(cmdReaded.substring(0, 4).equalsIgnoreCase(String("GETD")) == true){
-    Serial.println("aqui2");
     Serial.print((digitalRead(portName(cmdReaded.substring(4))) == LOW ? "0" : "1"));
     return(0);
   }else if(cmdReaded.substring(0, 4).equalsIgnoreCase(String("SETA")) == true){
-    Serial.println("aqui3");
     port = portName(cmdReaded.substring(4, cmdReaded.indexOf('=')));
     if(port == -1) return(-1);
  
     analogWrite(port, cmdReaded.substring(cmdReaded.indexOf('=') + 1).toInt());
     return(0);
   }else if(cmdReaded.substring(0, 4).equalsIgnoreCase(String("SETD")) == true){
-    Serial.println("aqui4");
     port = portName(cmdReaded.substring(4, cmdReaded.indexOf('=')));
     if(port == -1) return(-1);
 
     digitalWrite(port, (cmdReaded.substring(cmdReaded.indexOf('=') + 1) == "0" ? LOW : HIGH));
     return(0);
   }else if(cmdReaded.substring(0, 4).equalsIgnoreCase(String("INUP")) == true){
-    Serial.println("aqui5");
     pinMode(portName(cmdReaded.substring(4)), INPUT_PULLUP);
     return(0);
   }else if(cmdReaded.substring(0, 2).equalsIgnoreCase(String("IN")) == true){
-    Serial.println("aqui6");
     pinMode(portName(cmdReaded.substring(2)), INPUT);
     return(0);
   }else if(cmdReaded.substring(0, 3).equalsIgnoreCase("OUT") == true){
-    Serial.println("aqui7");
     pinMode(portName(cmdReaded.substring(3)), OUTPUT);
     return(0);
   }
