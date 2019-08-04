@@ -69,7 +69,7 @@ Reads (get commands) returns "xOK" or "xNOK" where x is "0" or "1" to digital in
 <br>
 <b>At linux prompt:</b><br>
 &num; tail -f /dev/<b>tty0</b> &<br>
-<i>Ready</i><br>
+<i>Ready</i><br><br>
 &num; echo "out<b>d2</b>" > /dev/<b>tty0</b><br>
 <i>cmd: [outd2]<br>OK</i><br><br>
 &num; echo "setd<b>d2=1</b>" > /dev/<b>tty0</b><br>
