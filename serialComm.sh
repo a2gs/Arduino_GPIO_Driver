@@ -8,7 +8,7 @@
 
 if [ $# -ne 1 ]; then
 
-	echo -e "Usage:\n$0 /dev/aruinoPort"
+	echo -e "Usage:\n$0 /dev/arduinoPort"
 
 else
 
