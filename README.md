@@ -92,3 +92,6 @@ Sample:<br>
 <i>cmd: [getaa2]<br>1023OK</i><br><br>
 &num; echo "getd<b>d3</b>" > /dev/<b>tty0</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(putting pin A2 to LOW)<br>
 <i>cmd: [getaa2]<br>0OK</i><br>
+<br>
+<br>Or using:<br>
+&num; ./serialComm.sh <b>/dev/arduinoPort</b><br>
